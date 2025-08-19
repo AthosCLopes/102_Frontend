@@ -37,7 +37,15 @@ h2 {
 }
 
 #sports {
-    background-color: rgba(0, 255, 0, 0.3);
+    background-color:rgba(0, 255, 0, 0.3);
+} 
+
+#tecnology {
+    background-color:rgba(0, 255, 0, 0.3);
+}
+
+#economy {
+    background-color: #A38C32;
 }
 
 section {
