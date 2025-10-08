@@ -15,3 +15,21 @@ console.log(numeros);
 
 //Mostrar um numero especifico
 console.log(numeros[4])
+
+
+
+// =================================================
+//  ARRAY DE CARROS
+
+
+let garagem = ['BYD', 'TESLA', 'DODGE', 'AUDI', 'LAMBORGHINI', 'JAGUAR', 'SUBARU', 'PEUGEOT', 'MAZDA'];
+garagem.push('TOYOYA');
+
+
+for (let i = 0; i < garagem.length; i++) {
+    console.log(`Carro nº ${Number(i) + 1}: ${garagem[i]}`);    
+}
+
+for (carro in garagem) {
+    console.log(carro);
+}
