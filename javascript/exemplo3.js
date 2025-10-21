@@ -30,6 +30,6 @@ for (let i = 0; i < garagem.length; i++) {
     console.log(`Carro nº ${Number(i) + 1}: ${garagem[i]}`);    
 }
 
-for (carro in garagem) {
-    console.log(carro);
+for (let carro in garagem) {
+    console.log(carro.valueOf());
 }
