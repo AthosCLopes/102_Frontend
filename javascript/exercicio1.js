@@ -37,6 +37,8 @@ livro = {
 },
 ]
 
+
+
 biblioteca.push(livro = {
     titulo: "Senhor dos Anéis",
     autor: "J.R.R. Tolkien",
@@ -53,3 +55,12 @@ biblioteca.filter(livro => livro.genero === "Ficção").forEach(livro => {
     console.log(`\nLivro de Ficção: ${livro.titulo}, Autor: ${livro.autor}`)
 })
 
+for (let i = 0; i < biblioteca.length; i++) {
+    let anos = []
+    anos.push(biblioteca[i].ano);
+
+    let menorAno = Math.min.apply(null, anos);
+
+    console.log(`Menor ano: ${menorAno}`);
+
+}
